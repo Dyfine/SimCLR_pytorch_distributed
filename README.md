@@ -22,7 +22,7 @@ This repo was tested with Ubuntu 16.04.1 LTS, Python 3.6, PyTorch 1.2.0, and CUD
      --ngpu 2 
    ```
 
-   You can modify ```--master_port``` to assign another available port. You can also train the model with ```run_supcon.sh```.
+   You can modify ```--master_port``` to assign another available port. You can also train the model with ```sh run_supcon.sh```.
 
 2. Linear evaluation stage.
 
@@ -33,7 +33,7 @@ This repo was tested with Ubuntu 16.04.1 LTS, Python 3.6, PyTorch 1.2.0, and CUD
      --ckpt path/to/ckpt
    ```
 
-   You can also train the model with ```run_linear.sh```. The checkpoints are stored in ```./work_space```.
+   You can also train the model with ```sh run_linear.sh```. The checkpoints are stored in ```./work_space```.
 
 ## Results
 
